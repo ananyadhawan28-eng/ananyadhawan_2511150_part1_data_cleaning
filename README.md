@@ -160,32 +160,5 @@ Applied to: `customer_name`, `segment`, `region`, `state`, `city`, `category`, `
 
 ---
 
-## Screenshots Included
 
-| File | Contents |
-|------|---------|
-| `screenshots/raw_data_preview.png` | Text issues, date format problems, missing values, duplicate summary from raw data |
-| `screenshots/cleaned_data_preview.png` | Quality flag distribution, new calculated columns, discount distribution, order status breakdown |
-| `screenshots/pivot_summary_1.png` | Sales & profit by region and category, monthly trend, profit margin by segment |
-| `screenshots/pivot_summary_2.png` | Sub-category sales ranking, ship mode distribution, problem orders by region, final quality summary |
-
----
-
-## File Structure
-
-```
-part1_data_cleaning/
-├── data/
-│   ├── raw_orders.xlsx         ← Original data (unchanged)
-│   └── cleaned_orders.xlsx     ← Cleaned + calculated columns (912 rows, 32 cols)
-├── outputs/
-│   ├── data_quality_report.xlsx ← 8-sheet quality report
-│   ├── pivot_summary.xlsx       ← 6 pivot analysis sheets
-│   └── cleaning_log.md          ← Full documentation of decisions
-├── screenshots/
-│   ├── raw_data_preview.png
-│   ├── cleaned_data_preview.png
-│   ├── pivot_summary_1.png
-│   └── pivot_summary_2.png
-└── README.md
 ```
